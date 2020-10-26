@@ -41,6 +41,10 @@
             <groupId>com.jayway.jsonpath</groupId>
             <artifactId>json-path</artifactId>
         </dependency>
+        <dependency>
+            <groupId>de.qaware.xff</groupId>
+            <artifactId>x-forwarded-filter</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

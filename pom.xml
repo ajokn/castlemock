@@ -67,6 +67,7 @@
         <flapdoodle.mongo.version>2.2.0</flapdoodle.mongo.version>
         <jackson.databind.version>2.11.1</jackson.databind.version>
         <maven.build.helper.version>1.7</maven.build.helper.version>
+        <x-forwarded-filter.version>1.0</x-forwarded-filter.version>
         <common.collections.version>3.2.2</common.collections.version>
         <jakarta.activation.version>1.2.2</jakarta.activation.version>
         <javax.validation.version>2.0.1.Final</javax.validation.version>
@@ -410,6 +411,11 @@
                 <groupId>com.jayway.jsonpath</groupId>
                 <artifactId>json-path</artifactId>
                 <version>${json.path.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.qaware.xff</groupId>
+                <artifactId>x-forwarded-filter</artifactId>
+                <version>${x-forwarded-filter.version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.activation</groupId>
